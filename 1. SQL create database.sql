@@ -28,3 +28,15 @@ NamaPembeli Varchar(30) not null,
 NoHP Varchar(50) not null,
 Alamat Varchar(50) not null
 )
+
+
+CREATE TABLE DVD
+(
+	dvdID CHAR(6) PRIMARY KEY CHECK (dvdID LIKE 'DVD[0-9][0-9][0-9]'),
+	RakID,
+	JudulDVD VARCHAR(50) NOT NULL,
+	GenreDVD VARCHAR(50) NOT NULL,
+	Sutradara VARCHAR(50) NOT NULL,
+	Studio VARCHAR(50) NOT NULL,
+	HargaDVD INT NOT NULL
+)
