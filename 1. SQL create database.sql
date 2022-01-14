@@ -1,3 +1,11 @@
+use master
+go
+drop database TokoDVD
+CREATE DATABASE TokoDVD
+GO
+USE TokoDVD
+GO
+
 CREATE TABLE Pembeli(
 PembeliID CHAR(5) PRIMARY KEY CHECK (PembeliID LIKE 'PU[0-9][0-9][0-9]') NOT NULL,
 NamaPembeli VARCHAR(50) NOT NULL,
