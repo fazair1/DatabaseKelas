@@ -1,9 +1,9 @@
 INSERT INTO Pembeli VALUES 
-('PU001', '', '', ''),
-('PU002', '', '', ''),
-('PU003', '', '', ''),
-('PU004', '', '', ''),
-('PU005', '', '', '')
+('PU001', 'Hanif', '081218452294', 'Tangerang Selatan'),
+('PU002', 'William', '08195412942', 'Jakarta Utara'),
+('PU003', 'Valentina', '085730451953', 'Pekanbaru'),
+('PU004', 'Steven', '087650421444', 'Surabaya'),
+('PU005', 'Gabriel', '081517421122', 'Pontianak')
 
 INSERT INTO Rak VALUES 
 ('RA001', 'RakFilmCampuran'),
