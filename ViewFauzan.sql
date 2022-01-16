@@ -1,3 +1,5 @@
+--View untuk melihat DVD yang terjual dengan genre "Action"
+
 CREATE VIEW [Action DVD Sales] AS
 	SELECT pmb.OrderID, o.dvdID, JudulDVD, JumlahDVD
 	FROM	Pembayaran pmb JOIN Orderr o ON pmb.OrderID=o.OrderID
